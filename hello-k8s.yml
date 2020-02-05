@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: hello-k8s
-          image: CONTAINER_IMAGE
+          image: nginx   #CONTAINER_IMAGE
           securityContext:
             privileged: false
             readOnlyRootFilesystem: true
